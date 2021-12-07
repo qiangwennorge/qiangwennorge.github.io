@@ -6,7 +6,7 @@
   <link href="https://qiangwennorge.github.io/atom.xml" rel="self"/>
   
   <link href="https://qiangwennorge.github.io/"/>
-  <updated>2021-12-07T19:36:11.620Z</updated>
+  <updated>2021-12-07T20:56:53.386Z</updated>
   <id>https://qiangwennorge.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>在Ubuntu上安装Markdown编辑器Remarkable</title>
     <link href="https://qiangwennorge.github.io/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/"/>
     <id>https://qiangwennorge.github.io/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</id>
-    <published>2021-12-07T19:38:48.571Z</published>
-    <updated>2021-12-07T19:36:11.620Z</updated>
+    <published>2021-12-07T20:00:00.000Z</published>
+    <updated>2021-12-07T20:56:53.386Z</updated>
     
     
       
@@ -34,6 +34,14 @@
     
     
     
+    <category term="Markdown" scheme="https://qiangwennorge.github.io/categories/Markdown/"/>
+    
+    
+    <category term="Remarkable" scheme="https://qiangwennorge.github.io/tags/Remarkable/"/>
+    
+    <category term="Markdown" scheme="https://qiangwennorge.github.io/tags/Markdown/"/>
+    
+    <category term="Ubuntu" scheme="https://qiangwennorge.github.io/tags/Ubuntu/"/>
     
   </entry>
   

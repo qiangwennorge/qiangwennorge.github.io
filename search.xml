@@ -4,13 +4,29 @@
   
     
     <entry>
-      <title></title>
+      <title>在Ubuntu上安装Markdown编辑器Remarkable</title>
       <link href="/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/"/>
       <url>/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</url>
       
         <content type="html"><![CDATA[<h2 id="在Ubuntu上安装Markdown编辑器Remarkable"><a href="#在Ubuntu上安装Markdown编辑器Remarkable" class="headerlink" title="在Ubuntu上安装Markdown编辑器Remarkable"></a>在Ubuntu上安装Markdown编辑器Remarkable</h2><p>Remarkable是一个非常简洁，轻便的用于Linux环境下开源的Markdown编辑器，支持GitHub风格的格式，支持代码高亮，也可以将md文件转成html和pdf格式，非常适合博客文章的写作。</p><p>由于依赖文件太老或者一些其他原因，<a href="https://remarkableapp.github.io/linux.html">官方网站</a> 上下载的deb文件不能够直接在Ubuntu 20.04上安装。有大神在GitHub上提供了一个<a href="https://github.com/seiferteric/remarkable_debfix">解决方案</a> ，该方案将依赖文件重新打包生成新的deb文件，以下是详细操作：</p><pre><code>git clone https://github.com/seiferteric/remarkable_debfix.gitcd remarkable_debfix/dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb</code></pre><p>新的deb文件生成后双击即可安装，也可以通过命令行进行安装。命令行安装依赖gdebi，需要提前安装gdebi-core。</p><pre><code>sudo apt-get install gdebi-core</code></pre><p>然后再安装Remarkable 1.87</p><pre><code>sudo gdebi remarkable_1.87_all.deb </code></pre>]]></content>
       
       
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Remarkable </tag>
+            
+            <tag> Markdown </tag>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
       
     </entry>
     
