@@ -16,9 +16,20 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', '');
+</script>
+
 
     <title>关于 | Wenvenn</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
@@ -30,9 +41,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Wenvenn" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Wenvenn" type="application/atom+xml">
 </head>
 
 
@@ -45,7 +56,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    <img src="/android-chrome-192x192.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Wenvenn</span>
                 </a>
@@ -144,7 +155,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        <img src="/android-chrome-192x192.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">Wenvenn</div>
         <div class="logo-desc">
@@ -265,24 +276,7 @@
 
             <div class="description center-align">
                 
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
+                    
                 
             </div>
         </div>
@@ -291,9 +285,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/1.jpg)');
 </script>
 
 
@@ -303,6 +295,8 @@
 <main class="content">
 
     <div id="aboutme" class="container about-container">
+    
+
         <div class="card">
             <div class="card-content">
                 <div class="row">
@@ -332,7 +326,7 @@
                     <div class="col s12 m12 l4">
                         <div class="profile center-align">
                             <div class="avatar">
-                                <img src="/medias/avatar.jpg" alt="Wenvenn"
+                                <img src="/android-chrome-192x192.png" alt="Wenvenn"
                                      class="circle responsive-img avatar-img">
                             </div>
                             <div class="author">
@@ -360,7 +354,7 @@
 
                                 </div>
                                 <div class="title">Wenvenn</div>
-                                <div class="career">Software Engineer</div>
+                                <div class="career">Consultant</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/qiangwennorge" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -428,7 +422,7 @@
                     </div>
                 </div>
 
-                <div class="introduction center-align" data-aos="fade-up">If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.</div>
+                <div class="introduction center-align" data-aos="fade-up">...</div>
 
                 <style type="text/css">
     #posts-chart,
@@ -614,7 +608,7 @@
             <div class="skillbar">
                 <div class="skillbar-title"
                      style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 85%">
-                    <span>Java</span>
+                    <span>Data Analysis</span>
                 </div>
                 <div class="skill-bar-percent">85%</div>
             </div>
@@ -625,7 +619,7 @@
             <div class="skillbar">
                 <div class="skillbar-title"
                      style="background: linear-gradient(to right, #9900FF 0%, #CC66FF 100%); width: 80%">
-                    <span>JavaScript</span>
+                    <span>Machine Learning</span>
                 </div>
                 <div class="skill-bar-percent">80%</div>
             </div>
@@ -635,10 +629,10 @@
         <div class="col s12 m6 l6" data-aos="fade-up">
             <div class="skillbar">
                 <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 80%">
-                    <span>HTML5</span>
+                     style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 89%">
+                    <span>Python</span>
                 </div>
-                <div class="skill-bar-percent">80%</div>
+                <div class="skill-bar-percent">89%</div>
             </div>
         </div>
         
@@ -646,21 +640,10 @@
         <div class="col s12 m6 l6" data-aos="fade-up">
             <div class="skillbar">
                 <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
-                    <span>CSS</span>
-                </div>
-                <div class="skill-bar-percent">70%</div>
-            </div>
-        </div>
-        
-        
-        <div class="col s12 m6 l6" data-aos="fade-up">
-            <div class="skillbar">
-                <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 90%">
+                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 80%">
                     <span>SQL</span>
                 </div>
-                <div class="skill-bar-percent">90%</div>
+                <div class="skill-bar-percent">80%</div>
             </div>
         </div>
         
@@ -668,10 +651,21 @@
         <div class="col s12 m6 l6" data-aos="fade-up">
             <div class="skillbar">
                 <div class="skillbar-title"
-                     style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 75%">
-                    <span>程序设计</span>
+                     style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 50%">
+                    <span>JavaScript</span>
                 </div>
-                <div class="skill-bar-percent">75%</div>
+                <div class="skill-bar-percent">50%</div>
+            </div>
+        </div>
+        
+        
+        <div class="col s12 m6 l6" data-aos="fade-up">
+            <div class="skillbar">
+                <div class="skillbar-title"
+                     style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 40%">
+                    <span>Linux</span>
+                </div>
+                <div class="skill-bar-percent">40%</div>
             </div>
         </div>
         
@@ -713,52 +707,25 @@
 
                 
                 
-<div id="myGallery" class="my-gallery">
-    <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-image"></i>&nbsp;&nbsp;相册
-    </div>
-    <div class="row">
-        
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/0.jpg">
-                <img src="/medias/featureimages/0.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/1.jpg">
-                <img src="/medias/featureimages/1.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/2.jpg">
-                <img src="/medias/featureimages/2.jpg" class="responsive-img">
+                
+                
             </div>
         </div>
         
         
-    </div>
-</div>
+        <div class="card">
+        	<div class="card-content">
+       		<div class="card-content article-card-content">
+                		<div class="title center-align" data-aos="zoom-in-up">
+                    			<i class="fa fa-address-book"></i>&nbsp;&nbsp;我的简历 My Resume
+                		</div>
+                		<div id="articleContent" data-aos="fade-up">
+                    			<p>你好！</p>
 
-<script>
-    $(function () {
-        let animateClass = 'animated pulse';
-        $('#myGallery .photo').hover(function () {
-            $(this).addClass(animateClass);
-        }, function () {
-            $(this).removeClass(animateClass);
-        });
-    });
-</script>
-
-                
-                
-                
-                
-            </div>
-        </div>
+                		</div>
+        		</div>
+    		</div>
+	</div>
     </div>
 </main>
 
@@ -1016,6 +983,14 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 鼠标星星特效 -->
