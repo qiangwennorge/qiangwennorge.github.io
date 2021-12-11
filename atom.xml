@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Wenvenn</title>
   
-  
+  <subtitle>欢迎光临！</subtitle>
   <link href="https://qiangwennorge.github.io/atom.xml" rel="self"/>
   
   <link href="https://qiangwennorge.github.io/"/>
-  <updated>2021-12-07T20:56:53.386Z</updated>
+  <updated>2021-12-11T19:32:39.478Z</updated>
   <id>https://qiangwennorge.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为GitHub Pages上的个人博客绑定GoDaddy域名</title>
+    <link href="https://qiangwennorge.github.io/2021/12/11/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/"/>
+    <id>https://qiangwennorge.github.io/2021/12/11/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/</id>
+    <published>2021-12-11T20:00:00.000Z</published>
+    <updated>2021-12-11T19:32:39.478Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;为GitHub-Pages上的个人博客绑定GoDaddy域名&quot;&gt;&lt;a href=&quot;#为GitHub-Pages上的个人博客绑定GoDaddy域名&quot; class=&quot;headerlink&quot; title=&quot;为GitHub</summary>
+        
+      
+    
+    
+    
+    <category term="GitHub" scheme="https://qiangwennorge.github.io/categories/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="https://qiangwennorge.github.io/tags/GitHub/"/>
+    
+    <category term="个人网站" scheme="https://qiangwennorge.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+    
+    <category term="DNS" scheme="https://qiangwennorge.github.io/tags/DNS/"/>
+    
+  </entry>
   
   <entry>
     <title>在Ubuntu上安装Markdown编辑器Remarkable</title>
