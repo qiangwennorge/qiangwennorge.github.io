@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="为GitHub Pages上的个人博客绑定GoDaddy域名, Wenvenn">
-    <meta name="description" content="为GitHub Pages上的个人博客绑定GoDaddy域名很多人通过GitHub Pages来搭建自己的博客网站，默认的地址一般是username.github.io，这里的username一般是你GitHub的用户名。这样的地址不被记住">
+    <meta name="keywords" content="在Ubuntu上安装Markdown编辑器Remarkable, Wenvenn">
+    <meta name="description" content="在Ubuntu上安装Markdown编辑器RemarkableRemarkable是一个非常简洁，轻便的用于Linux环境下开源的Markdown编辑器，支持GitHub风格的格式，支持代码高亮，也可以将md文件转成html和pdf格式，非">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +28,7 @@
 </script>
 
 
-    <title>为GitHub Pages上的个人博客绑定GoDaddy域名 | Wenvenn</title>
+    <title>在Ubuntu上安装Markdown编辑器Remarkable | Wenvenn</title>
     <link rel="icon" type="image/png" href="/favicon-32x32.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -260,12 +260,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">为GitHub Pages上的个人博客绑定GoDaddy域名</h1>
+                    <h1 class="description center-align post-title">在Ubuntu上安装Markdown编辑器Remarkable</h1>
                 </div>
             </div>
         </div>
@@ -287,16 +287,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/GitHub/">
-                                <span class="chip bg-color">GitHub</span>
+                            <a href="/tags/Remarkable/">
+                                <span class="chip bg-color">Remarkable</span>
                             </a>
                         
-                            <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">
-                                <span class="chip bg-color">个人网站</span>
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
                             </a>
                         
-                            <a href="/tags/DNS/">
-                                <span class="chip bg-color">DNS</span>
+                            <a href="/tags/Ubuntu/">
+                                <span class="chip bg-color">Ubuntu</span>
                             </a>
                         
                     </div>
@@ -320,7 +320,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-11
+                    2021-12-07
                 </div>
                 
 
@@ -334,7 +334,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    464
+                    226
                 </div>
                 
 
@@ -364,16 +364,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="为GitHub-Pages上的个人博客绑定GoDaddy域名"><a href="#为GitHub-Pages上的个人博客绑定GoDaddy域名" class="headerlink" title="为GitHub Pages上的个人博客绑定GoDaddy域名"></a>为GitHub Pages上的个人博客绑定GoDaddy域名</h1><p>很多人通过GitHub Pages来搭建自己的博客网站，默认的地址一般是username.github.io，这里的username一般是你GitHub的用户名。这样的地址不被记住，同时GitHub Pages也提供绑定个人域名的功能，所以如果有比较好记忆的域名可以通过GitHub Pages来绑定，通过直接访问域名的方式（而不是username.github.io）来访问挂载在GitHub上的个人博客网站。</p>
-<p>本博客的域名在GoDaddy上购买，点击进入GoDaddy个人域名DNS配置后，将     185.199.108.153，185.199.109.153，185.199.110.153，185.199.111.153这几个IP地址加入到A记录，将个人原Github博客地址username.github.io（将username替换成个人用户名）添加到CNAME记录。针对本博客的A记录和CNAME记录如下截图。</p>
-<p><img src="https://media.publit.io/file/Godaddy-dns.png" alt="GoDaddy DNS" title="GoDaddy DNS"></p>
-<ul>
-<li>A记录：将一个域名解析到一个IP地址，如上面例子即将个人域名解析到那四个配置的IP地址</li>
-<li>CNAME记录：将一个域名解析到另外一个域名，如上面例子及将个人域名解析到username.github.io</li>
-</ul>
-<p>将上述配置好后，然后返回到GitHub Pages配置页，在Custom domain填上个人域名（对于本博客就是<a href="http://www.wenvenn.com/">www.wenvenn.com</a> ），点击Save以后GitHub会自动检测DNS，如果通过的话在填写的域名后面可以看到一个绿色的钩，这里建议同时勾选HTTPS。如下截图。</p>
-<p><img src="https://media.publit.io/file/Github-custom-domain.png" alt="GitHub Pages Custom Domain" title="GitHub Pages Custom Domain"></p>
-<p>有时候在GoDaddy上注册个人域名并配置DNS后不一定会马上生效，这里涉及到DNS广播，一般耗时几个小时，最长48个小时，个人可以通过<a target="_blank" rel="noopener" href="https://dnschecker.org/">DNS Checker</a> 或者<a target="_blank" rel="noopener" href="https://www.whatsmydns.net/">What’s My DNS</a> 这两个网站来查询DNS状态，如果都打钩的话说明已经OK了。</p>
+                <h2 id="在Ubuntu上安装Markdown编辑器Remarkable"><a href="#在Ubuntu上安装Markdown编辑器Remarkable" class="headerlink" title="在Ubuntu上安装Markdown编辑器Remarkable"></a>在Ubuntu上安装Markdown编辑器Remarkable</h2><p>Remarkable是一个非常简洁，轻便的用于Linux环境下开源的Markdown编辑器，支持GitHub风格的格式，支持代码高亮，也可以将md文件转成html和pdf格式，非常适合博客文章的写作。</p>
+<p>由于依赖文件太老或者一些其他原因，<a target="_blank" rel="noopener" href="https://remarkableapp.github.io/linux.html">官方网站</a> 上下载的deb文件不能够直接在Ubuntu 20.04上安装。有大神在GitHub上提供了一个<a target="_blank" rel="noopener" href="https://github.com/seiferteric/remarkable_debfix">解决方案</a> ，该方案将依赖文件重新打包生成新的deb文件，以下是详细操作：</p>
+<pre><code>git clone https://github.com/seiferteric/remarkable_debfix.git
+cd remarkable_debfix/
+dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb
+</code></pre>
+<p>新的deb文件生成后双击即可安装，也可以通过命令行进行安装。命令行安装依赖gdebi，需要提前安装gdebi-core。</p>
+<pre><code>sudo apt-get install gdebi-core
+</code></pre>
+<p>然后再安装Remarkable 1.87</p>
+<pre><code>sudo gdebi remarkable_1.87_all.deb 
+</code></pre>
 
                 
             </div>
@@ -400,7 +402,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.wenvenn.com/2021/12/11/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/">https://www.wenvenn.com/2021/12/11/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/</a>
+                    <a href="https://www.wenvenn.com/20211207/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/">https://www.wenvenn.com/20211207/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -438,16 +440,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/GitHub/">
-                                    <span class="chip bg-color">GitHub</span>
+                                <a href="/tags/Remarkable/">
+                                    <span class="chip bg-color">Remarkable</span>
                                 </a>
                             
-                                <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">
-                                    <span class="chip bg-color">个人网站</span>
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
                                 </a>
                             
-                                <a href="/tags/DNS/">
-                                    <span class="chip bg-color">DNS</span>
+                                <a href="/tags/Ubuntu/">
+                                    <span class="chip bg-color">Ubuntu</span>
                                 </a>
                             
                         </div>
@@ -645,13 +647,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/12/12/chuang-jian-python-yun-xing-de-xu-ni-huan-jing/">
+                <a href="/20211211/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="创建Python运行的虚拟环境">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="为GitHub Pages上的个人博客绑定GoDaddy域名">
                         
-                        <span class="card-title">创建Python运行的虚拟环境</span>
+                        <span class="card-title">为GitHub Pages上的个人博客绑定GoDaddy域名</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -662,14 +664,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-12
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Python/" class="post-category">
-                                    Python
+                            <a href="/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/" class="post-category">
+                                    奇淫技巧
                                 </a>
                             
                             
@@ -679,8 +681,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Python/">
-                        <span class="chip bg-color">Python</span>
+                    <a href="/tags/GitHub/">
+                        <span class="chip bg-color">GitHub</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">
+                        <span class="chip bg-color">个人网站</span>
+                    </a>
+                    
+                    <a href="/tags/DNS/">
+                        <span class="chip bg-color">DNS</span>
                     </a>
                     
                 </div>
@@ -691,10 +701,10 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/">
+                <a href="/20211207/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/">
                     <div class="card-image">
                         
                         
@@ -725,6 +735,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
