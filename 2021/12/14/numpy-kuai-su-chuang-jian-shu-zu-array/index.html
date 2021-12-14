@@ -4,8 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="在Ubuntu上安装Markdown编辑器Remarkable, Wenvenn">
-    <meta name="description" content="在Ubuntu上安装Markdown编辑器RemarkableRemarkable是一个非常简洁，轻便的用于Linux环境下开源的Markdown编辑器，支持GitHub风格的格式，支持代码高亮，也可以将md文件转成html和pdf格式，非">
+    <meta name="keywords" content="NumPy：快速创建数组（Array）, Wenvenn">
+    <meta name="description" content="快速创建数组（Array）NumPy为Python提供了高阶数组与矩阵运算，因此数组（Array）也成为使用NumPy的最基本数据单元，本Note记录如何快速的创建数组。
+将Python List转换成数组如果有现成的Python list">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +29,7 @@
 </script>
 
 
-    <title>在Ubuntu上安装Markdown编辑器Remarkable | Wenvenn</title>
+    <title>NumPy：快速创建数组（Array） | Wenvenn</title>
     <link rel="icon" type="image/png" href="/favicon-32x32.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -260,12 +261,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">在Ubuntu上安装Markdown编辑器Remarkable</h1>
+                    <h1 class="description center-align post-title">NumPy：快速创建数组（Array）</h1>
                 </div>
             </div>
         </div>
@@ -287,16 +288,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Remarkable/">
-                                <span class="chip bg-color">Remarkable</span>
-                            </a>
-                        
-                            <a href="/tags/Markdown/">
-                                <span class="chip bg-color">Markdown</span>
-                            </a>
-                        
-                            <a href="/tags/Ubuntu/">
-                                <span class="chip bg-color">Ubuntu</span>
+                            <a href="/tags/numpy/">
+                                <span class="chip bg-color">numpy</span>
                             </a>
                         
                     </div>
@@ -307,8 +300,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/" class="post-category">
-                                奇淫技巧
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" class="post-category">
+                                数据分析
                             </a>
                         
                     </div>
@@ -320,7 +313,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-07
+                    2021-12-14
                 </div>
                 
 
@@ -334,14 +327,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    226
+                    835
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -364,18 +357,78 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="在Ubuntu上安装Markdown编辑器Remarkable"><a href="#在Ubuntu上安装Markdown编辑器Remarkable" class="headerlink" title="在Ubuntu上安装Markdown编辑器Remarkable"></a>在Ubuntu上安装Markdown编辑器Remarkable</h2><p>Remarkable是一个非常简洁，轻便的用于Linux环境下开源的Markdown编辑器，支持GitHub风格的格式，支持代码高亮，也可以将md文件转成html和pdf格式，非常适合博客文章的写作。</p>
-<p>由于依赖文件太老或者一些其他原因，<a target="_blank" rel="noopener" href="https://remarkableapp.github.io/linux.html">官方网站</a> 上下载的deb文件不能够直接在Ubuntu 20.04上安装。有大神在GitHub上提供了一个<a target="_blank" rel="noopener" href="https://github.com/seiferteric/remarkable_debfix">解决方案</a> ，该方案将依赖文件重新打包生成新的deb文件，以下是详细操作：</p>
-<pre><code>git clone https://github.com/seiferteric/remarkable_debfix.git
-cd remarkable_debfix/
-dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb
-</code></pre>
-<p>新的deb文件生成后双击即可安装，也可以通过命令行进行安装。命令行安装依赖gdebi，需要提前安装gdebi-core。</p>
-<pre><code>sudo apt-get install gdebi-core
-</code></pre>
-<p>然后再安装Remarkable 1.87</p>
-<pre><code>sudo gdebi remarkable_1.87_all.deb 
-</code></pre>
+                <h2 id="快速创建数组（Array）"><a href="#快速创建数组（Array）" class="headerlink" title="快速创建数组（Array）"></a>快速创建数组（Array）</h2><p>NumPy为Python提供了高阶数组与矩阵运算，因此数组（Array）也成为使用NumPy的最基本数据单元，本Note记录如何快速的创建数组。</p>
+<h3 id="将Python-List转换成数组"><a href="#将Python-List转换成数组" class="headerlink" title="将Python List转换成数组"></a>将Python List转换成数组</h3><p>如果有现成的Python list，则可以直接通过numpy.array()函数将Python list转成NumPy数组。如下为一维数组实例。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+
+a_list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>a_list<span class="token punctuation">)</span> <span class="token comment"># array([1, 2, 3, 4])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>多维数组实例：</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">b_list <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token builtin">range</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span>i<span class="token operator">+</span><span class="token number">3</span><span class="token punctuation">)</span> <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>b_list<span class="token punctuation">)</span>
+<span class="token comment"># array([[1, 2, 3],</span>
+<span class="token comment">#        [3, 4, 5],</span>
+<span class="token comment">#        [5, 6, 7]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="zeros-生成全0数组"><a href="#zeros-生成全0数组" class="headerlink" title="zeros()生成全0数组"></a>zeros()生成全0数组</h3><p>dtype可以用来限制生成数组内数据类型，默认为float。如下为一维数组实例</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> dtype<span class="token operator">=</span><span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token comment"># array([0, 0, 0, 0, 0])</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="ones-生成全1数组"><a href="#ones-生成全1数组" class="headerlink" title="ones()生成全1数组"></a>ones()生成全1数组</h3><p>功能同zeros()，ones()可以用来生成全1数组。如下为3x5数组实例。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>dtype<span class="token operator">=</span><span class="token builtin">int</span><span class="token punctuation">)</span>
+<span class="token comment"># array([[1, 1, 1, 1, 1],</span>
+<span class="token comment">#        [1, 1, 1, 1, 1],</span>
+<span class="token comment">#        [1, 1, 1, 1, 1]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="full-生成同一值数组"><a href="#full-生成同一值数组" class="headerlink" title="full()生成同一值数组"></a>full()生成同一值数组</h3><p>类似全0和全1，full()可以用来生成由同一值组成的数组。如下为3x5且每一个元素均为2.4的数组实例。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>full<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">2.4</span><span class="token punctuation">)</span>
+<span class="token comment"># array([[2.4, 2.4, 2.4, 2.4, 2.4],</span>
+<span class="token comment">#        [2.4, 2.4, 2.4, 2.4, 2.4],</span>
+<span class="token comment">#        [2.4, 2.4, 2.4, 2.4, 2.4]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>这个数组也可以用zeros()和ones()来实现。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>dtype<span class="token operator">=</span><span class="token builtin">float</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">2.4</span>
+<span class="token comment"># array([[2.4, 2.4, 2.4, 2.4, 2.4],</span>
+<span class="token comment">#        [2.4, 2.4, 2.4, 2.4, 2.4],</span>
+<span class="token comment">#        [2.4, 2.4, 2.4, 2.4, 2.4]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>ones<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">,</span>dtype<span class="token operator">=</span><span class="token builtin">float</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">2.4</span>
+<span class="token comment"># array([[2.4, 2.4, 2.4, 2.4, 2.4],</span>
+<span class="token comment">#        [2.4, 2.4, 2.4, 2.4, 2.4],</span>
+<span class="token comment">#        [2.4, 2.4, 2.4, 2.4, 2.4]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="arange-生成由递增数列组成的数组"><a href="#arange-生成由递增数列组成的数组" class="headerlink" title="arange()生成由递增数列组成的数组"></a>arange()生成由递增数列组成的数组</h3><p>如下实例，生成从0到18递增（增幅为2）的数组。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token comment"># array([ 0,  2,  4,  6,  8, 10, 12, 14, 16, 18])</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="linspace-生成由递增数列组成的数组"><a href="#linspace-生成由递增数列组成的数组" class="headerlink" title="linspace()生成由递增数列组成的数组"></a>linspace()生成由递增数列组成的数组</h3><p>使用arange()时，我们知道数列的增幅为多少，如果不知道增幅，可以使用lingspace()，如下实例创建一个在0到1之间均匀的生成5个值的数组。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>linspace<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span> <span class="token comment"># array([0.  , 0.25, 0.5 , 0.75, 1.  ])</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="随机值组成的数组"><a href="#随机值组成的数组" class="headerlink" title="随机值组成的数组"></a>随机值组成的数组</h3><p>使用random.random()可以生成一个均匀分布的随机值组成的数组</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>random<span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment"># array([[0.61138824, 0.54712149, 0.40095232, 0.39771161, 0.0281933 ],</span>
+<span class="token comment">#        [0.08123355, 0.41283792, 0.00461631, 0.12341322, 0.86842517],</span>
+<span class="token comment">#        [0.93693765, 0.97597066, 0.30344276, 0.8472288 , 0.80629387]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>使用random.norm()可以生成一个均值为0，方差为1的正态分布的随机值组成的数组。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>normal<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment"># array([[ 1.30565338, -1.08954521, -0.209259  ,  0.85940426,  0.68683533],</span>
+<span class="token comment">#        [ 1.20633136,  2.57417898,  0.43243003,  0.3559354 ,  0.82257559],</span>
+<span class="token comment">#        [-1.11870164,  0.04259074,  1.7639825 , -0.30045559,  2.50982843]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>使用random.randint()可以生成一个在给定范围内随机选择的整数组成的数组。如下实例生成一个在0（含）到10（不含）之间随机选择组成的3x5整数数组。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>size<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment"># array([[0, 7, 0, 9, 9],</span>
+<span class="token comment">#        [4, 4, 8, 2, 8],</span>
+<span class="token comment">#        [8, 2, 0, 7, 2]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="eye-生成单位矩阵"><a href="#eye-生成单位矩阵" class="headerlink" title="eye()生成单位矩阵"></a>eye()生成单位矩阵</h3><p>单位矩阵是一个对角线元素为1，其余元素均为0的矩阵。以下实例生成一个5*5的单位矩阵。</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">np<span class="token punctuation">.</span>eye<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span>
+<span class="token comment"># array([[1., 0., 0., 0., 0.],</span>
+<span class="token comment">#        [0., 1., 0., 0., 0.],</span>
+<span class="token comment">#        [0., 0., 1., 0., 0.],</span>
+<span class="token comment">#        [0., 0., 0., 1., 0.],</span>
+<span class="token comment">#        [0., 0., 0., 0., 1.]])</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -402,7 +455,7 @@ dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.wenvenn.com/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/">https://www.wenvenn.com/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</a>
+                    <a href="https://www.wenvenn.com/2021/12/14/numpy-kuai-su-chuang-jian-shu-zu-array/">https://www.wenvenn.com/2021/12/14/numpy-kuai-su-chuang-jian-shu-zu-array/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -440,16 +493,8 @@ dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Remarkable/">
-                                    <span class="chip bg-color">Remarkable</span>
-                                </a>
-                            
-                                <a href="/tags/Markdown/">
-                                    <span class="chip bg-color">Markdown</span>
-                                </a>
-                            
-                                <a href="/tags/Ubuntu/">
-                                    <span class="chip bg-color">Ubuntu</span>
+                                <a href="/tags/numpy/">
+                                    <span class="chip bg-color">numpy</span>
                                 </a>
                             
                         </div>
@@ -643,74 +688,18 @@ dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2021/12/11/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/">
+                <a href="/2021/12/14/numpy-kuai-su-chuang-jian-shu-zu-array/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="为GitHub Pages上的个人博客绑定GoDaddy域名">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="NumPy：快速创建数组（Array）">
                         
-                        <span class="card-title">为GitHub Pages上的个人博客绑定GoDaddy域名</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/" class="post-category">
-                                    奇淫技巧
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/GitHub/">
-                        <span class="chip bg-color">GitHub</span>
-                    </a>
-                    
-                    <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">
-                        <span class="chip bg-color">个人网站</span>
-                    </a>
-                    
-                    <a href="/tags/DNS/">
-                        <span class="chip bg-color">DNS</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="在Ubuntu上安装Markdown编辑器Remarkable">
-                        
-                        <span class="card-title">在Ubuntu上安装Markdown编辑器Remarkable</span>
+                        <span class="card-title">NumPy：快速创建数组（Array）</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -721,14 +710,14 @@ dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-14
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/" class="post-category">
-                                    奇淫技巧
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" class="post-category">
+                                    数据分析
                                 </a>
                             
                             
@@ -739,16 +728,77 @@ dpkg-deb -Z xz -b old_deb remarkable_1.87_all.deb
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Remarkable/">
-                        <span class="chip bg-color">Remarkable</span>
+                    <a href="/tags/numpy/">
+                        <span class="chip bg-color">numpy</span>
                     </a>
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/12/13/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Python数据分析：导入在线范例数据集">
+                        
+                        <span class="card-title">Python数据分析：导入在线范例数据集</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-13
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" class="post-category">
+                                    数据分析
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/pandas/">
+                        <span class="chip bg-color">pandas</span>
                     </a>
                     
-                    <a href="/tags/Ubuntu/">
-                        <span class="chip bg-color">Ubuntu</span>
+                    <a href="/tags/statsmodels/">
+                        <span class="chip bg-color">statsmodels</span>
+                    </a>
+                    
+                    <a href="/tags/pydataset/">
+                        <span class="chip bg-color">pydataset</span>
+                    </a>
+                    
+                    <a href="/tags/seaborn/">
+                        <span class="chip bg-color">seaborn</span>
+                    </a>
+                    
+                    <a href="/tags/scikit-learn/">
+                        <span class="chip bg-color">scikit-learn</span>
+                    </a>
+                    
+                    <a href="/tags/quilt/">
+                        <span class="chip bg-color">quilt</span>
                     </a>
                     
                 </div>

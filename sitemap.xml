@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wenvenn.com/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</loc>
+    
+    <lastmod>2021-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wenvenn.com/2021/12/11/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/</loc>
+    
+    <lastmod>2021-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wenvenn.com/2021/12/14/numpy-kuai-su-chuang-jian-shu-zu-array/</loc>
+    
+    <lastmod>2021-12-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wenvenn.com/2021/12/12/chuang-jian-python-yun-xing-de-xu-ni-huan-jing/</loc>
     
     <lastmod>2021-12-13</lastmod>
@@ -12,24 +39,6 @@
   
   <url>
     <loc>https://www.wenvenn.com/baidu_verify_code-2dzqFLfBL7.html</loc>
-    
-    <lastmod>2021-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wenvenn.com/2021/12/07/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</loc>
-    
-    <lastmod>2021-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wenvenn.com/2021/12/11/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/</loc>
     
     <lastmod>2021-12-13</lastmod>
     
@@ -200,17 +209,17 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://www.wenvenn.com/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</loc>
+    <loc>https://www.wenvenn.com/tags/numpy/</loc>
     <lastmod>2021-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://www.wenvenn.com/categories/GitHub/</loc>
+    <loc>https://www.wenvenn.com/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</loc>
     <lastmod>2021-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -224,7 +233,7 @@
   </url>
   
   <url>
-    <loc>https://www.wenvenn.com/categories/Markdown/</loc>
+    <loc>https://www.wenvenn.com/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2021-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
