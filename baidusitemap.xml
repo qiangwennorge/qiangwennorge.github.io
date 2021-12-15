@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</loc>
+    <lastmod>2021-12-15</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20211215/shi-yong-python-bao-yfinance-du-qu-ya-hu-cai-jing-shang-de-gu-piao-shu-ju/</loc>
+    <lastmod>2021-12-15</lastmod>
+  </url>
+  <url>
     <loc>https://www.wenvenn.com/20211207/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</loc>
     <lastmod>2021-12-14</lastmod>
   </url>
@@ -14,10 +22,6 @@
   </url>
   <url>
     <loc>https://www.wenvenn.com/20211212/chuang-jian-python-yun-xing-de-xu-ni-huan-jing/</loc>
-    <lastmod>2021-12-13</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</loc>
     <lastmod>2021-12-13</lastmod>
   </url>
 </urlset> 

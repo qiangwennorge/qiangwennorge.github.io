@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2021-12-14T15:53:51.622Z</updated>
+  <updated>2021-12-15T09:08:51.851Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Python包yfinance读取雅虎财经上的股票数据</title>
+    <link href="https://www.wenvenn.com/20211215/shi-yong-python-bao-yfinance-du-qu-ya-hu-cai-jing-shang-de-gu-piao-shu-ju/"/>
+    <id>https://www.wenvenn.com/20211215/shi-yong-python-bao-yfinance-du-qu-ya-hu-cai-jing-shang-de-gu-piao-shu-ju/</id>
+    <published>2021-12-15T20:00:00.000Z</published>
+    <updated>2021-12-15T09:08:51.851Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;使用Python包yfinance读取雅虎财经上的股票数据&quot;&gt;&lt;a href=&quot;#使用Python包yfinance读取雅虎财经上的股票数据&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="量化投资" scheme="https://www.wenvenn.com/categories/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/"/>
+    
+    
+    <category term="Python" scheme="https://www.wenvenn.com/tags/Python/"/>
+    
+    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
+    
+  </entry>
   
   <entry>
     <title>NumPy：快速创建数组（Array）</title>
@@ -46,7 +73,7 @@
     <link href="https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/"/>
     <id>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</id>
     <published>2021-12-13T20:00:00.000Z</published>
-    <updated>2021-12-13T16:41:20.345Z</updated>
+    <updated>2021-12-15T09:10:10.607Z</updated>
     
     
       
