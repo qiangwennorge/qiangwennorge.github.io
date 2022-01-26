@@ -37,11 +37,11 @@
     <category term="数据分析" scheme="https://www.wenvenn.com/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
     
     <category term="Python" scheme="https://www.wenvenn.com/tags/Python/"/>
     
-    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
     
   </entry>
   
@@ -66,9 +66,9 @@
     <category term="量化投资" scheme="https://www.wenvenn.com/categories/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/"/>
     
     
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
     <category term="Python" scheme="https://www.wenvenn.com/tags/Python/"/>
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
     
     <category term="backtrader" scheme="https://www.wenvenn.com/tags/backtrader/"/>
     
@@ -95,9 +95,9 @@
     <category term="量化投资" scheme="https://www.wenvenn.com/categories/%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84/"/>
     
     
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
     <category term="Python" scheme="https://www.wenvenn.com/tags/Python/"/>
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
     
     <category term="backtrader" scheme="https://www.wenvenn.com/tags/backtrader/"/>
     
