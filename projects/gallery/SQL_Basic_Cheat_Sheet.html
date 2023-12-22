@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQL Basic Cheat Sheet</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="querying-single-table">Querying Single Table</h2>
+<p>Fetch all columns from the  <em>country</em> table:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> country<span class="token punctuation">;</span>
+</code></pre>
+<p>Fetch <em>id</em> and <em>name</em> columns from the <em>city</em> table:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> id<span class="token punctuation">,</span> name <span class="token keyword">FROM</span> country<span class="token punctuation">;</span>
+</code></pre>
+<p>Fetch city names sorted by the <em>rating</em> column in the default ASCending order:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> rating <span class="token punctuation">[</span><span class="token keyword">ASC</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Fetch city names sorted by the <em>rating</em> column in the DESCending order:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> rating <span class="token keyword">DESC</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="aliases">Aliases</h2>
+<p>Columns</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">AS</span> city_name <span class="token keyword">FROM</span> city<span class="token punctuation">;</span>
+</code></pre>
+<p>Tables</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> co<span class="token punctuation">.</span>name<span class="token punctuation">,</span> ci<span class="token punctuation">.</span>name
+<span class="token keyword">FROM</span> city <span class="token keyword">AS</span> ci
+<span class="token keyword">JOIN</span> country <span class="token keyword">AS</span> co
+  <span class="token keyword">ON</span> ci<span class="token punctuation">.</span>country_id <span class="token operator">=</span> co<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+</code></pre>
+<h2 id="filtering-the-output">Filtering the Output</h2>
+<h3 id="comparison-operators">Comparison Operators</h3>
+<p>Fetch names of cities that have a rating above 3:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> rating <span class="token operator">&gt;</span> <span class="token number">3</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Fetch names of cities that are neither Berlin nor Madrid:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> name <span class="token operator">!=</span> <span class="token string">'Berlin'</span>
+  <span class="token operator">AND</span> name <span class="token operator">!=</span> <span class="token string">'Madrid'</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="text-operators">Text Operators</h3>
+<p>Fetch names of cities that start with “P” or end with an “s”:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> name <span class="token operator">LIKE</span> <span class="token string">'P%'</span>
+   <span class="token operator">OR</span> name <span class="token operator">LIKE</span> <span class="token string">'%s'</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Fetch names of cities that start with any letter followed by ‘ublin’ (like Dublin in Ireland or Lublin in Poland):</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> name <span class="token operator">LIKE</span> <span class="token string">'_ublin'</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="other-operators">Other Operators</h3>
+<p>Fetch names of cities that have a population between 500K and 5M:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> population <span class="token operator">BETWEEN</span> <span class="token number">500000</span> <span class="token operator">AND</span> <span class="token number">5000000</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Fetch names of cities that don’t miss a rating value:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> rating <span class="token operator">IS</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Fetch names of cities that are in countries with IDs 1, 4, 7 or 8:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> country_id <span class="token operator">IN</span> {<span class="token number">1</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span>}<span class="token punctuation">;</span>
+</code></pre>
+<h2 id="querying-multiple-tables">Querying Multiple Tables</h2>
+<h3 id="inner-join">INNER JOIN</h3>
+<p><strong>JOIN</strong> (or explicitly <strong>INNER JOIN</strong>) returns rows that have matching values in both tables.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> city<span class="token punctuation">.</span>name<span class="token punctuation">,</span> country<span class="token punctuation">.</span>name <span class="token keyword">FROM</span> city
+<span class="token punctuation">[</span><span class="token keyword">INNER</span><span class="token punctuation">]</span> <span class="token keyword">JOIN</span> country
+   <span class="token keyword">ON</span> city<span class="token punctuation">.</span>country_id <span class="token operator">=</span> country<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+</code></pre>
+<h3 id="left-join">LEFT JOIN</h3>
+<p><strong>LEFT JOIN</strong> returns all rows from the left table with corresponding rows from the right table. If there’s no matching row, <strong>NULL</strong>s are returned as values from the second table.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> city<span class="token punctuation">.</span>name<span class="token punctuation">,</span> country<span class="token punctuation">.</span>name <span class="token keyword">FROM</span> city
+<span class="token keyword">LEFT</span> <span class="token keyword">JOIN</span> country
+   <span class="token keyword">ON</span> city<span class="token punctuation">.</span>country_id <span class="token operator">=</span> country<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+</code></pre>
+<h3 id="right-join">RIGHT JOIN</h3>
+<p><strong>RIGHT JOIN</strong> returns all rows from the right table with corresponding rows from the left table. If there is no matching now, <strong>NULL</strong>s are returned as values from the left table.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> city<span class="token punctuation">.</span>name<span class="token punctuation">,</span> country<span class="token punctuation">.</span>name <span class="token keyword">FROM</span> city
+<span class="token keyword">RIGHT</span> <span class="token keyword">JOIN</span> country
+   <span class="token keyword">ON</span> city<span class="token punctuation">.</span>country_id <span class="token operator">=</span> country<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+</code></pre>
+<h3 id="full-join">FULL JOIN</h3>
+<p><strong>FULL JOIN</strong> (or explicitly <strong>FULL OUTER JOIN</strong>) returns all rows from both tables - if there’s no matching row in the second table, <strong>NULL</strong>s are returned.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> city<span class="token punctuation">.</span>name<span class="token punctuation">,</span> country<span class="token punctuation">.</span>name <span class="token keyword">FROM</span> city
+<span class="token keyword">FULL</span> <span class="token punctuation">[</span><span class="token keyword">OUTER</span><span class="token punctuation">]</span> <span class="token keyword">JOIN</span> country
+   <span class="token keyword">ON</span> city<span class="token punctuation">.</span>country_id <span class="token operator">=</span> country<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+</code></pre>
+<h3 id="cross-join">CROSS JOIN</h3>
+<p><strong>CROSS JOIN</strong> returns all possible combinations of rows from both tables. There are two syntaxes available.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> city<span class="token punctuation">.</span>name<span class="token punctuation">,</span> country<span class="token punctuation">.</span>name <span class="token keyword">FROM</span> city
+<span class="token keyword">CROSS</span> <span class="token keyword">JOIN</span> country<span class="token punctuation">;</span>
+
+<span class="token keyword">SELECT</span> city<span class="token punctuation">.</span>name<span class="token punctuation">,</span> country<span class="token punctuation">.</span>name <span class="token keyword">FROM</span> city<span class="token punctuation">,</span> country<span class="token punctuation">;</span>
+</code></pre>
+<h3 id="natural-join">NATURAL JOIN</h3>
+<p><strong>NATURAL JOIN</strong> will join tables by all columns with the same name.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> city<span class="token punctuation">.</span>name<span class="token punctuation">,</span> country<span class="token punctuation">.</span>name <span class="token keyword">FROM</span> city
+<span class="token keyword">NATURAL</span> <span class="token keyword">JOIN</span> country<span class="token punctuation">;</span>
+</code></pre>
+<p><strong>NATURAL JOIN</strong> used these columns to match rows: <em><a href="http://city.id">city.id</a></em>, <em><a href="http://city.name">city.name</a></em>, <em><a href="http://country.id">country.id</a></em>, <em><a href="http://country.name">country.name</a></em>.<br>
+<strong>NATURAL JOIN</strong> is very rarely used in practice.</p>
+<h2 id="aggregation-and-grouping">Aggregation and Grouping</h2>
+<p><strong>GROUP BY</strong> groups together rows that have the same values in specified columns. It computes summaries (aggregates) for each unique combination of values.</p>
+<h3 id="aggregate-functions">Aggregate Functions</h3>
+<ul>
+<li><strong>AVG(expr)</strong>: average value for rows within the group</li>
+<li><strong>COUNT(expr)</strong>: count of values for rows within the group</li>
+<li><strong>MAX(expr)</strong>: maximum value within the group</li>
+<li><strong>MIN(expr)</strong>: minimum value within the group</li>
+<li><strong>SUM(expr)</strong>: sum of values within the group</li>
+</ul>
+<h4 id="example-queries">Example Queries</h4>
+<p>Find out the number of cities:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">FROM</span> city<span class="token punctuation">;</span>
+</code></pre>
+<p>Find out the number of cities with non-null ratings：</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span>rating<span class="token punctuation">)</span> <span class="token keyword">FROM</span> city<span class="token punctuation">;</span>
+</code></pre>
+<p>Find out the number of distinctive country values:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token keyword">DISTINCT</span> country_id<span class="token punctuation">)</span> <span class="token keyword">FROM</span> city<span class="token punctuation">;</span>
+</code></pre>
+<p>Find out the smallest and the greatest country populations:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token function">MIN</span><span class="token punctuation">(</span>population<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">MAX</span><span class="token punctuation">(</span>population<span class="token punctuation">)</span> <span class="token keyword">FROM</span> country<span class="token punctuation">;</span>
+</code></pre>
+<p>Find out the total population of cities in respective countries:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> country_id<span class="token punctuation">,</span> <span class="token function">SUM</span><span class="token punctuation">(</span>population<span class="token punctuation">)</span> 
+<span class="token keyword">FROM</span> city
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> country_id<span class="token punctuation">;</span>
+</code></pre>
+<p>Find out the average rating for cities in respective countries if the average is above 3.0:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> country_id<span class="token punctuation">,</span> <span class="token function">AVG</span><span class="token punctuation">(</span>rating<span class="token punctuation">)</span> 
+<span class="token keyword">FROM</span> city
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> country_id
+<span class="token keyword">HAVING</span> <span class="token function">AVG</span><span class="token punctuation">(</span>rating<span class="token punctuation">)</span> <span class="token operator">&gt;</span> <span class="token number">3.0</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="subqueries">Subqueries</h2>
+<p>A subquery is a query that is nested inside another query, or inside another subquery. There are different types of subqueries.</p>
+<h3 id="single-value">Single Value</h3>
+<p>The simplest subquery returns exactly one column and exactly one row. It can be used with comparison operators <strong>=</strong>, <strong>&gt;</strong>, <strong>&gt;=</strong>, <strong>&lt;</strong> or <strong>&lt;=</strong>.<br>
+This query finds cities with the same rating as Paris:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> rating <span class="token operator">=</span> <span class="token punctuation">(</span>
+  <span class="token keyword">SELECT</span> rating <span class="token keyword">FROM</span> city <span class="token keyword">WHERE</span> name <span class="token operator">=</span> <span class="token string">'Paris'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="multiple-values">Multiple Values</h3>
+<p>A subquery can also return multiple columns or multiple rows. Such subqueries can be used in operators <strong>IN</strong>, <strong>EXISTS</strong>, <strong>ALL</strong> or <strong>ANY</strong>.<br>
+This query finds cities in countries that have a population above 20M:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city
+<span class="token keyword">WHERE</span> country_id <span class="token operator">IN</span> <span class="token punctuation">(</span>
+  <span class="token keyword">SELECT</span> country_id <span class="token keyword">FROM</span> country <span class="token keyword">WHERE</span> polulation <span class="token operator">&gt;</span> <span class="token number">20000000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="correlated">Correlated</h3>
+<p>A correlated subquery refers to the tables introduced in the outer query. A correlated subquery depends on the outer query. It cannot be run independently from the outer query.<br>
+This query finds cities with a population greater than the average population in the country:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> city main_city
+<span class="token keyword">WHERE</span> population <span class="token operator">&gt;</span> <span class="token punctuation">(</span>
+  <span class="token keyword">SELECT</span> <span class="token function">AVG</span><span class="token punctuation">(</span>population<span class="token punctuation">)</span> <span class="token keyword">FROM</span> city average_city <span class="token keyword">WHERE</span> average_city<span class="token punctuation">.</span>country_id <span class="token operator">=</span> main_city<span class="token punctuation">.</span>country_id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>This query finds countries that have at least one city:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> country 
+<span class="token keyword">WHERE</span> <span class="token keyword">EXISTS</span> <span class="token punctuation">(</span>
+  <span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> city <span class="token keyword">WHERE</span> country_id <span class="token operator">=</span> country<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="set-operations">Set Operations</h2>
+<p>Set operations are used to combine the results of two or more queries into a single result. The combined queries must return the same number of columns and compatible data analysis. The names of the corresponding columns can be different.</p>
+<h3 id="union">UNION</h3>
+<p><strong>UNION</strong> combines the results of two result sets and removes duplicates. <strong>UNION ALL</strong> doesn’t remove duplicate rows.<br>
+This query displays German cyclists together with German skaters:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> cycling <span class="token keyword">WHERE</span> country <span class="token operator">=</span> <span class="token string">'DE'</span>
+<span class="token keyword">UNION</span> <span class="token operator">/</span> <span class="token keyword">UNION</span> <span class="token keyword">ALL</span>
+<span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> skating <span class="token keyword">WHERE</span> country <span class="token operator">=</span> <span class="token string">'DE'</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="intersect">INTERSECT</h3>
+<p><strong>INTERSECT</strong> returns only rows that appear in both result sets.<br>
+This query displays German cyclists who are also German skaters at the same time:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> cycling <span class="token keyword">WHERE</span> country <span class="token operator">=</span> <span class="token string">'DE'</span>
+<span class="token keyword">INTERSECT</span>
+<span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> skating <span class="token keyword">WHERE</span> country <span class="token operator">=</span> <span class="token string">'DE'</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="except">EXCEPT</h3>
+<p><strong>EXCEPT</strong> returns only the rows that appear in the first set but do not appear in the second result set.<br>
+This query displays German cyclists unless they are also German skaters at the same time:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> cycling <span class="token keyword">WHERE</span> country <span class="token operator">=</span> <span class="token string">'DE'</span>
+<span class="token keyword">EXCEPT</span> <span class="token operator">/</span> MINUS
+<span class="token keyword">SELECT</span> name <span class="token keyword">FROM</span> skating <span class="token keyword">WHERE</span> country <span class="token operator">=</span> <span class="token string">'DE'</span><span class="token punctuation">;</span>
+</code></pre>
+<p><code>Reference: www.learnsql.com</code></p>
+</div>
+</body>
+
+</html>
