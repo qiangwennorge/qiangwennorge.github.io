@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.wenvenn.com/20240122/keras-ru-men-di-yi-ge-shen-du-xue-xi-xiang-mu/</loc>
+    <loc>https://www.wenvenn.com/20240121/keras-ru-men-di-yi-ge-shen-du-xue-xi-xiang-mu/</loc>
     
     <lastmod>2024-01-22</lastmod>
     
@@ -293,6 +293,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.wenvenn.com/tags/keras/</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wenvenn.com/tags/python/</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -311,6 +325,13 @@
   
   <url>
     <loc>https://www.wenvenn.com/categories/%E5%A5%87%E6%B7%AB%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wenvenn.com/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
