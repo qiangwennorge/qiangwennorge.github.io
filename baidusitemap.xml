@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.wenvenn.com/20240121/keras-ru-men-di-yi-ge-shen-du-xue-xi-xiang-mu/</loc>
-    <lastmod>2024-01-22</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211219/backtrader-she-ji-yi-ge-jian-dan-de-sma-ce-lue/</loc>
-    <lastmod>2021-12-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211220/python-zhong-guan-yu-shi-jian-de-chu-li-fang-shi/</loc>
-    <lastmod>2021-12-20</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211212/chuang-jian-python-yun-xing-de-xu-ni-huan-jing/</loc>
-    <lastmod>2021-12-19</lastmod>
-  </url>
-  <url>
     <loc>https://www.wenvenn.com/20211207/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</loc>
-    <lastmod>2021-12-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211211/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/</loc>
-    <lastmod>2021-12-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211216/numpy-shu-zu-de-ji-ben-cao-zuo/</loc>
-    <lastmod>2021-12-19</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211214/numpy-kuai-su-chuang-jian-shu-zu-array/</loc>
-    <lastmod>2021-12-19</lastmod>
+    <lastmod>2024-01-23</lastmod>
   </url>
   <url>
     <loc>https://www.wenvenn.com/20211217/li-shi-hui-ce-ping-tai-backtrader-de-kuai-su-shang-shou/</loc>
-    <lastmod>2021-12-17</lastmod>
+    <lastmod>2024-01-23</lastmod>
   </url>
   <url>
-    <loc>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</loc>
-    <lastmod>2021-12-15</lastmod>
+    <loc>https://www.wenvenn.com/20211211/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/</loc>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20211212/chuang-jian-python-yun-xing-de-xu-ni-huan-jing/</loc>
+    <lastmod>2024-01-23</lastmod>
   </url>
   <url>
     <loc>https://www.wenvenn.com/20211215/shi-yong-python-bao-yfinance-du-qu-ya-hu-cai-jing-shang-de-gu-piao-shu-ju/</loc>
-    <lastmod>2021-12-15</lastmod>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</loc>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20211220/python-zhong-guan-yu-shi-jian-de-chu-li-fang-shi/</loc>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20211216/numpy-shu-zu-de-ji-ben-cao-zuo/</loc>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20240121/keras-ru-men-di-yi-ge-shen-du-xue-xi-xiang-mu/</loc>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20211219/backtrader-she-ji-yi-ge-jian-dan-de-sma-ce-lue/</loc>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20211214/numpy-kuai-su-chuang-jian-shu-zu-array/</loc>
+    <lastmod>2024-01-23</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20240123/exams-correlations-in-the-dataset/</loc>
+    <lastmod>2024-01-23</lastmod>
   </url>
 </urlset> 
