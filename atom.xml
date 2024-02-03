@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-01-24T15:41:23.690Z</updated>
+  <updated>2024-02-03T18:55:29.303Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Feature scaling using Scikit-Learn</title>
+    <link href="https://www.wenvenn.com/20241229/feature-scaling-using-scikit-learn/"/>
+    <id>https://www.wenvenn.com/20241229/feature-scaling-using-scikit-learn/</id>
+    <published>2024-12-29T20:00:00.000Z</published>
+    <updated>2024-02-03T18:55:29.303Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Data-Preparation&quot;&gt;&lt;a href=&quot;#Data-Preparation&quot; class=&quot;headerlink&quot; title=&quot;Data Preparation&quot;&gt;&lt;/a&gt;Data Preparation&lt;/h2&gt;&lt;p&gt;The widely</summary>
+        
+      
+    
+    
+    
+    <category term="Machine learning" scheme="https://www.wenvenn.com/categories/Machine-learning/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="seaborn" scheme="https://www.wenvenn.com/tags/seaborn/"/>
+    
+    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
+    
+  </entry>
   
   <entry>
     <title>Imputation of missing values using Scikit-Learn</title>

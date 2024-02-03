@@ -1,3 +1,4 @@
+https://www.wenvenn.com/20241229/feature-scaling-using-scikit-learn/
 https://www.wenvenn.com/20240124/imputation-of-missing-values-using-scikit-learn/
 https://www.wenvenn.com/20240123/exams-correlations-in-the-dataset/
 https://www.wenvenn.com/20240121/keras-ru-men-di-yi-ge-shen-du-xue-xi-xiang-mu/
