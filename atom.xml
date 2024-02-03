@@ -46,6 +46,35 @@
   </entry>
   
   <entry>
+    <title>Analysis with text and categorical attributes or labels</title>
+    <link href="https://www.wenvenn.com/20240131/analysis-with-text-and-categorical-attributes-or-labels/"/>
+    <id>https://www.wenvenn.com/20240131/analysis-with-text-and-categorical-attributes-or-labels/</id>
+    <published>2024-01-31T20:00:00.000Z</published>
+    <updated>2024-02-03T19:07:46.173Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Data-Preparation&quot;&gt;&lt;a href=&quot;#Data-Preparation&quot; class=&quot;headerlink&quot; title=&quot;Data Preparation&quot;&gt;&lt;/a&gt;Data Preparation&lt;/h2&gt;&lt;p&gt;The widely</summary>
+        
+      
+    
+    
+    
+    <category term="Data Analysis" scheme="https://www.wenvenn.com/categories/Data-Analysis/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Feature scaling using Scikit-Learn</title>
     <link href="https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/"/>
     <id>https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/</id>
