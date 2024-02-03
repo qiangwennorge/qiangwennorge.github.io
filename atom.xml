@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-02-03T18:55:29.303Z</updated>
+  <updated>2024-02-03T19:04:34.342Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Confusion matrix and its metrics</title>
+    <link href="https://www.wenvenn.com/20240202/confusion-matrix-and-its-metrics/"/>
+    <id>https://www.wenvenn.com/20240202/confusion-matrix-and-its-metrics/</id>
+    <published>2024-02-02T20:00:00.000Z</published>
+    <updated>2024-02-03T19:04:34.342Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Data-preparation&quot;&gt;&lt;a href=&quot;#Data-preparation&quot; class=&quot;headerlink&quot; title=&quot;Data preparation&quot;&gt;&lt;/a&gt;Data preparation&lt;/h1&gt;&lt;p&gt;Fetch MNIST</summary>
+        
+      
+    
+    
+    
+    <category term="Machine Learning" scheme="https://www.wenvenn.com/categories/Machine-Learning/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Feature scaling using Scikit-Learn</title>
-    <link href="https://www.wenvenn.com/20241229/feature-scaling-using-scikit-learn/"/>
-    <id>https://www.wenvenn.com/20241229/feature-scaling-using-scikit-learn/</id>
-    <published>2024-12-29T20:00:00.000Z</published>
-    <updated>2024-02-03T18:55:29.303Z</updated>
+    <link href="https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/"/>
+    <id>https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/</id>
+    <published>2024-01-29T20:00:00.000Z</published>
+    <updated>2024-02-03T19:04:49.862Z</updated>
     
     
       
@@ -34,7 +63,7 @@
     
     
     
-    <category term="Machine learning" scheme="https://www.wenvenn.com/categories/Machine-learning/"/>
+    <category term="Machine Learning" scheme="https://www.wenvenn.com/categories/Machine-Learning/"/>
     
     
     <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
