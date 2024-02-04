@@ -343,7 +343,7 @@
     <link href="https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/"/>
     <id>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</id>
     <published>2021-12-13T20:00:00.000Z</published>
-    <updated>2024-01-23T21:02:24.394Z</updated>
+    <updated>2024-02-04T07:38:40.515Z</updated>
     
     
       
@@ -367,9 +367,9 @@
     
     <category term="seaborn" scheme="https://www.wenvenn.com/tags/seaborn/"/>
     
-    <category term="scikit-learn" scheme="https://www.wenvenn.com/tags/scikit-learn/"/>
-    
     <category term="quilt" scheme="https://www.wenvenn.com/tags/quilt/"/>
+    
+    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
     
   </entry>
   

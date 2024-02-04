@@ -350,9 +350,9 @@
             
             <tag> seaborn </tag>
             
-            <tag> scikit-learn </tag>
-            
             <tag> quilt </tag>
+            
+            <tag> sklearn </tag>
             
         </tags>
       

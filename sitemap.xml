@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</loc>
+    
+    <lastmod>2024-02-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wenvenn.com/20240131/analysis-with-text-and-categorical-attributes-or-labels/</loc>
     
     <lastmod>2024-02-03</lastmod>
@@ -84,15 +93,6 @@
   
   <url>
     <loc>https://www.wenvenn.com/20211215/shi-yong-python-bao-yfinance-du-qu-ya-hu-cai-jing-shang-de-gu-piao-shu-ju/</loc>
-    
-    <lastmod>2024-01-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</loc>
     
     <lastmod>2024-01-23</lastmod>
     
@@ -256,13 +256,6 @@
   
   <url>
     <loc>https://www.wenvenn.com/tags/seaborn/</loc>
-    <lastmod>2024-02-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wenvenn.com/tags/scikit-learn/</loc>
     <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
