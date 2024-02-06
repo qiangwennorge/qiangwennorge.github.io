@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-02-03T19:04:34.342Z</updated>
+  <updated>2024-02-06T18:47:03.494Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Visualize GPS data in Python</title>
+    <link href="https://www.wenvenn.com/20240206/visualize-gps-data-in-python/"/>
+    <id>https://www.wenvenn.com/20240206/visualize-gps-data-in-python/</id>
+    <published>2024-02-06T16:00:00.000Z</published>
+    <updated>2024-02-06T18:47:03.494Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Data-Preparation&quot;&gt;&lt;a href=&quot;#Data-Preparation&quot; class=&quot;headerlink&quot; title=&quot;Data Preparation&quot;&gt;&lt;/a&gt;Data Preparation&lt;/h2&gt;&lt;p&gt;GPS data</summary>
+        
+      
+    
+    
+    
+    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
+    
+    
+    <category term="folium" scheme="https://www.wenvenn.com/tags/folium/"/>
+    
+    <category term="plotly" scheme="https://www.wenvenn.com/tags/plotly/"/>
+    
+    <category term="GPS" scheme="https://www.wenvenn.com/tags/GPS/"/>
+    
+  </entry>
   
   <entry>
     <title>Confusion matrix and its metrics</title>
