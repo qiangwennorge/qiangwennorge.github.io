@@ -113,6 +113,8 @@
             
             <tag> sklearn </tag>
             
+            <tag> matplotlib </tag>
+            
         </tags>
       
     </entry>
@@ -166,6 +168,8 @@
         <tags>
             
             <tag> pandas </tag>
+            
+            <tag> matplotlib </tag>
             
         </tags>
       

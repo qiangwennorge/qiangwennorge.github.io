@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/</loc>
+    
+    <lastmod>2024-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wenvenn.com/20240123/exams-correlations-in-the-dataset/</loc>
+    
+    <lastmod>2024-02-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wenvenn.com/20240206/visualize-gps-data-in-python/</loc>
     
     <lastmod>2024-02-06</lastmod>
@@ -47,15 +65,6 @@
   </url>
   
   <url>
-    <loc>https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/</loc>
-    
-    <lastmod>2024-02-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.wenvenn.com/20240202/confusion-matrix-and-its-metrics/</loc>
     
     <lastmod>2024-02-03</lastmod>
@@ -68,15 +77,6 @@
     <loc>https://www.wenvenn.com/20240124/imputation-of-missing-values-using-scikit-learn/</loc>
     
     <lastmod>2024-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wenvenn.com/20240123/exams-correlations-in-the-dataset/</loc>
-    
-    <lastmod>2024-01-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
