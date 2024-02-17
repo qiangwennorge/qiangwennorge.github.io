@@ -22,8 +22,6 @@
             
             <tag> pandas </tag>
             
-            <tag> matplotlib </tag>
-            
             <tag> geopandas </tag>
             
             <tag> contextily </tag>
