@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-03-01T18:24:10.670Z</updated>
+  <updated>2024-03-01T18:34:21.284Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Calculate Capital Asset Pricing Model (CAPM) with Python</title>
+    <link href="https://www.wenvenn.com/20240301/calculate-capital-asset-pricing-model-capm-with-python/"/>
+    <id>https://www.wenvenn.com/20240301/calculate-capital-asset-pricing-model-capm-with-python/</id>
+    <published>2024-03-01T15:00:00.000Z</published>
+    <updated>2024-03-01T18:34:21.284Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Capital-Asset-Pricing-Model-CAPM&quot;&gt;&lt;a href=&quot;#Capital-Asset-Pricing-Model-CAPM&quot; class=&quot;headerlink&quot; title=&quot;Capital Asset Pricing Model</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
+    
+    <category term="plotly" scheme="https://www.wenvenn.com/tags/plotly/"/>
+    
+  </entry>
   
   <entry>
     <title>Building a quantitative value investing strategy</title>
@@ -544,31 +571,6 @@
     <category term="quilt" scheme="https://www.wenvenn.com/tags/quilt/"/>
     
     <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>创建Python运行的虚拟环境</title>
-    <link href="https://www.wenvenn.com/20211212/chuang-jian-python-yun-xing-de-xu-ni-huan-jing/"/>
-    <id>https://www.wenvenn.com/20211212/chuang-jian-python-yun-xing-de-xu-ni-huan-jing/</id>
-    <published>2021-12-12T20:00:00.000Z</published>
-    <updated>2024-01-23T21:03:48.011Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;创建Python运行的虚拟环境&quot;&gt;&lt;a href=&quot;#创建Python运行的虚拟环境&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Small Technique" scheme="https://www.wenvenn.com/categories/Small-Technique/"/>
-    
-    
-    <category term="venv" scheme="https://www.wenvenn.com/tags/venv/"/>
     
   </entry>
   
