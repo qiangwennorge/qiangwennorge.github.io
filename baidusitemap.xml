@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/</loc>
+    <lastmod>2024-03-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/</loc>
+    <lastmod>2024-03-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.wenvenn.com/20240225/building-an-equal-weight-s-p-600-index-fund/</loc>
+    <lastmod>2024-03-01</lastmod>
+  </url>
+  <url>
     <loc>https://www.wenvenn.com/20240224/read-s-p-500-list-of-companies-from-wikipedia-and-retrieve-stock-data-using-yfinance/</loc>
     <lastmod>2024-03-01</lastmod>
   </url>

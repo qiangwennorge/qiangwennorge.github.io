@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-03-01T17:52:09.302Z</updated>
+  <updated>2024-03-01T18:24:10.670Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,87 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Building a quantitative value investing strategy</title>
+    <link href="https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/"/>
+    <id>https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/</id>
+    <published>2024-02-28T20:00:00.000Z</published>
+    <updated>2024-03-01T18:24:10.670Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Quantitative-Value-Strategy&quot;&gt;&lt;a href=&quot;#Quantitative-Value-Strategy&quot; class=&quot;headerlink&quot; title=&quot;Quantitative Value</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
+    
+    <category term="xlsxwriter" scheme="https://www.wenvenn.com/tags/xlsxwriter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Building a quantitative momentum investing strategy</title>
+    <link href="https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/"/>
+    <id>https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/</id>
+    <published>2024-02-26T20:00:00.000Z</published>
+    <updated>2024-03-01T18:22:55.436Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Quantitative-Momentum-Strategy&quot;&gt;&lt;a href=&quot;#Quantitative-Momentum-Strategy&quot; class=&quot;headerlink&quot; title=&quot;Quantitative Momentum</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
+    
+    <category term="xlsxwriter" scheme="https://www.wenvenn.com/tags/xlsxwriter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Building an equal-weight S&amp;P 600 index fund</title>
+    <link href="https://www.wenvenn.com/20240225/building-an-equal-weight-s-p-600-index-fund/"/>
+    <id>https://www.wenvenn.com/20240225/building-an-equal-weight-s-p-600-index-fund/</id>
+    <published>2024-02-25T20:00:00.000Z</published>
+    <updated>2024-03-01T18:21:35.243Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Load-the-list-of-S-amp-P-600-companies-from-Wikepedia&quot;&gt;&lt;a href=&quot;#Load-the-list-of-S-amp-P-600-companies-from-Wikepedia&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
+    
+    <category term="xlsxwriter" scheme="https://www.wenvenn.com/tags/xlsxwriter/"/>
+    
+  </entry>
   
   <entry>
     <title>Read S&amp;P 500 list of companies from Wikipedia and retrieve stock data using yfinance</title>
@@ -488,64 +569,6 @@
     
     
     <category term="venv" scheme="https://www.wenvenn.com/tags/venv/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为GitHub Pages上的个人博客绑定GoDaddy域名</title>
-    <link href="https://www.wenvenn.com/20211211/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/"/>
-    <id>https://www.wenvenn.com/20211211/wei-github-page-shang-de-ge-ren-bo-ke-bang-ding-godaddy-yu-ming/</id>
-    <published>2021-12-11T20:00:00.000Z</published>
-    <updated>2024-01-23T21:03:57.755Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;为GitHub-Pages上的个人博客绑定GoDaddy域名&quot;&gt;&lt;a href=&quot;#为GitHub-Pages上的个人博客绑定GoDaddy域名&quot; class=&quot;headerlink&quot; title=&quot;为GitHub</summary>
-        
-      
-    
-    
-    
-    <category term="Small Technique" scheme="https://www.wenvenn.com/categories/Small-Technique/"/>
-    
-    
-    <category term="GitHub" scheme="https://www.wenvenn.com/tags/GitHub/"/>
-    
-    <category term="个人网站" scheme="https://www.wenvenn.com/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
-    
-    <category term="DNS" scheme="https://www.wenvenn.com/tags/DNS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在Ubuntu上安装Markdown编辑器Remarkable</title>
-    <link href="https://www.wenvenn.com/20211207/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/"/>
-    <id>https://www.wenvenn.com/20211207/zai-ubuntu-shang-an-zhuang-markdown-bian-ji-qi-remarkable/</id>
-    <published>2021-12-07T20:00:00.000Z</published>
-    <updated>2024-01-23T21:04:36.244Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;在Ubuntu上安装Markdown编辑器Remarkable&quot;&gt;&lt;a href=&quot;#在Ubuntu上安装Markdown编辑器Remarkable&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Small Technique" scheme="https://www.wenvenn.com/categories/Small-Technique/"/>
-    
-    
-    <category term="Remarkable" scheme="https://www.wenvenn.com/tags/Remarkable/"/>
-    
-    <category term="Markdown" scheme="https://www.wenvenn.com/tags/Markdown/"/>
-    
-    <category term="Ubuntu" scheme="https://www.wenvenn.com/tags/Ubuntu/"/>
     
   </entry>
   
