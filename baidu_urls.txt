@@ -1,10 +1,10 @@
-https://www.wenvenn.com/20240302/create-3d-figure-using-matplotlib/
 https://www.wenvenn.com/20240301/calculate-capital-asset-pricing-model-capm-with-python/
 https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/
 https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/
 https://www.wenvenn.com/20240225/building-an-equal-weight-s-p-600-index-fund/
 https://www.wenvenn.com/20240224/read-s-p-500-list-of-companies-from-wikipedia-and-retrieve-stock-data-using-yfinance/
 https://www.wenvenn.com/20240222/coordinates-projection-with-python/
+https://www.wenvenn.com/20240218/create-3d-figure-using-matplotlib/
 https://www.wenvenn.com/20240214/read-online-dataset-and-make-geographical-visualization/
 https://www.wenvenn.com/20240206/visualize-gps-data-in-python/
 https://www.wenvenn.com/20240202/confusion-matrix-and-its-metrics/
