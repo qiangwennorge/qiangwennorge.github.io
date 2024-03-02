@@ -156,6 +156,37 @@
   </entry>
   
   <entry>
+    <title>Coordinates projection with Python</title>
+    <link href="https://www.wenvenn.com/20240222/coordinates-projection-with-python/"/>
+    <id>https://www.wenvenn.com/20240222/coordinates-projection-with-python/</id>
+    <published>2024-02-22T20:00:00.000Z</published>
+    <updated>2024-03-02T20:36:12.281Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Coordinates reference system tells Python how the coordinates related to places on the Earth, different coordinates projection could</summary>
+        
+      
+    
+    
+    
+    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
+    
+    
+    <category term="geopandas" scheme="https://www.wenvenn.com/tags/geopandas/"/>
+    
+    <category term="contextily" scheme="https://www.wenvenn.com/tags/contextily/"/>
+    
+    <category term="pyproj" scheme="https://www.wenvenn.com/tags/pyproj/"/>
+    
+    <category term="shapely" scheme="https://www.wenvenn.com/tags/shapely/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Read Online Dataset and Make Geographical Visualization</title>
     <link href="https://www.wenvenn.com/20240214/read-online-dataset-and-make-geographical-visualization/"/>
     <id>https://www.wenvenn.com/20240214/read-online-dataset-and-make-geographical-visualization/</id>
@@ -536,41 +567,6 @@
     
     
     <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python数据分析：导入在线范例数据集</title>
-    <link href="https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/"/>
-    <id>https://www.wenvenn.com/20211213/python-shu-ju-fen-xi-dao-ru-zai-xian-fan-li-shu-ju-ji/</id>
-    <published>2021-12-13T20:00:00.000Z</published>
-    <updated>2024-02-04T07:38:40.515Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;导入在线范例数据集&quot;&gt;&lt;a href=&quot;#导入在线范例数据集&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Data Analysis" scheme="https://www.wenvenn.com/categories/Data-Analysis/"/>
-    
-    
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
-    <category term="statsmodels" scheme="https://www.wenvenn.com/tags/statsmodels/"/>
-    
-    <category term="pydataset" scheme="https://www.wenvenn.com/tags/pydataset/"/>
-    
-    <category term="seaborn" scheme="https://www.wenvenn.com/tags/seaborn/"/>
-    
-    <category term="quilt" scheme="https://www.wenvenn.com/tags/quilt/"/>
-    
-    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
     
   </entry>
   
