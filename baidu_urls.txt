@@ -1,3 +1,4 @@
+https://www.wenvenn.com/20240302/create-3d-figure-using-matplotlib/
 https://www.wenvenn.com/20240301/calculate-capital-asset-pricing-model-capm-with-python/
 https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/
 https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/

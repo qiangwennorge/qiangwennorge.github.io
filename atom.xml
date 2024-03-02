@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-03-01T18:36:50.585Z</updated>
+  <updated>2024-03-02T20:43:38.764Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://www.wenvenn.com/20240302/create-3d-figure-using-matplotlib/"/>
+    <id>https://www.wenvenn.com/20240302/create-3d-figure-using-matplotlib/</id>
+    <published>2024-03-02T20:44:04.706Z</published>
+    <updated>2024-03-02T20:43:38.764Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: Create 3D figure using matplotlib&lt;br&gt;date: 2024-02-18 21:00:00&lt;br&gt;author: wenvenn&lt;br&gt;comments: true&lt;br&gt;img:&lt;br&gt;top:</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Calculate Capital Asset Pricing Model (CAPM) with Python</title>
@@ -542,31 +564,6 @@
     
     
     <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>NumPy：快速创建数组（Array）</title>
-    <link href="https://www.wenvenn.com/20211214/numpy-kuai-su-chuang-jian-shu-zu-array/"/>
-    <id>https://www.wenvenn.com/20211214/numpy-kuai-su-chuang-jian-shu-zu-array/</id>
-    <published>2021-12-14T20:00:00.000Z</published>
-    <updated>2024-01-23T21:01:15.645Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;快速创建数组（Array）&quot;&gt;&lt;a href=&quot;#快速创建数组（Array）&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Data Analysis" scheme="https://www.wenvenn.com/categories/Data-Analysis/"/>
-    
-    
-    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
     
   </entry>
   
