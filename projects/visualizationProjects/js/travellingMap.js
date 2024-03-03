@@ -285,7 +285,7 @@
 
         var option = {
           title: {
-            text: "Wenvenn欧洲自驾游线路图",
+            text: "Wenvenn Car Drive Travelling Map",
             left: "center",
             textStyle: {
               color: "#FFF"
