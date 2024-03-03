@@ -148,11 +148,11 @@
         // 获取地图中起点和终点的坐标，以数组形式保存下来
         var convertData = function(data) {
           var res = [];
-          for (var i = 0; i &lt; data.length; i++) {
+          for (var i = 0; i < data.length; i++) {
             var dataItem = data[i];
             var fromCoord = geoCoordMap[dataItem[1].name];
             var toCoord = geoCoordMap[dataItem[0].name];
-            if (fromCoord &amp;&amp; toCoord) {
+            if (fromCoord && toCoord) {
               res.push({
                 fromName: dataItem[1].name,
                 toName: dataItem[0].name,
