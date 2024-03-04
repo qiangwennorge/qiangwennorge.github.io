@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wenvenn.com/about/index.html</loc>
+    
+    <lastmod>2024-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wenvenn.com/20240218/create-3d-figure-using-matplotlib/</loc>
     
     <lastmod>2024-03-02</lastmod>
@@ -104,15 +113,6 @@
     <loc>https://www.wenvenn.com/20240206/visualize-gps-data-in-python/</loc>
     
     <lastmod>2024-02-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wenvenn.com/about/index.html</loc>
-    
-    <lastmod>2024-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
