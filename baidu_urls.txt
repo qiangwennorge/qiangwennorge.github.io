@@ -1,3 +1,8 @@
+https://www.wenvenn.com/20240322/geospatial-interpolation-k-nearest-neighbors/
+https://www.wenvenn.com/20240316/geospatial-interpolation-thiessen-polygons/
+https://www.wenvenn.com/20240312/geodataframe-datasets-from-geopandas/
+https://www.wenvenn.com/20240310/nearest-neighbor-in-geospatial-data-analysis/
+https://www.wenvenn.com/20240306/risk-adjusted-performance-metrics-calculation-in-python/
 https://www.wenvenn.com/20240301/calculate-capital-asset-pricing-model-capm-with-python/
 https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/
 https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/
