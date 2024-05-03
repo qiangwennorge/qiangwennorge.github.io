@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-03-23T20:51:34.045Z</updated>
+  <updated>2024-05-03T18:57:28.656Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Set up a database and store downloaded financial data for future use</title>
+    <link href="https://www.wenvenn.com/20240429/technical-indicators-garmin-klass-volatility/"/>
+    <id>https://www.wenvenn.com/20240429/technical-indicators-garmin-klass-volatility/</id>
+    <published>2024-04-29T16:00:00.000Z</published>
+    <updated>2024-05-03T18:57:28.656Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Parkinson-volatility&quot;&gt;&lt;a href=&quot;#Parkinson-volatility&quot; class=&quot;headerlink&quot; title=&quot;Parkinson volatility&quot;&gt;&lt;/a&gt;Parkinson</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Set up a database and store downloaded financial data for future use</title>
+    <link href="https://www.wenvenn.com/20240426/set-up-a-database-and-store-downloaded-financial-data-for-future-use/"/>
+    <id>https://www.wenvenn.com/20240426/set-up-a-database-and-store-downloaded-financial-data-for-future-use/</id>
+    <published>2024-04-26T16:00:00.000Z</published>
+    <updated>2024-05-03T18:52:21.839Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Once the freely available data is downloaded from the web, it is better to setup a database to store that information for future</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+  </entry>
   
   <entry>
     <title>Geospatial interpolation - K-nearest neighbors</title>
@@ -531,58 +589,6 @@
     <category term="seaborn" scheme="https://www.wenvenn.com/tags/seaborn/"/>
     
     <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Exams Correlations in the Dataset</title>
-    <link href="https://www.wenvenn.com/20240123/exams-correlations-in-the-dataset/"/>
-    <id>https://www.wenvenn.com/20240123/exams-correlations-in-the-dataset/</id>
-    <published>2024-01-23T20:54:00.000Z</published>
-    <updated>2024-02-06T18:53:42.603Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Data-Preparation&quot;&gt;&lt;a href=&quot;#Data-Preparation&quot; class=&quot;headerlink&quot; title=&quot;Data Preparation&quot;&gt;&lt;/a&gt;Data Preparation&lt;/h2&gt;&lt;p&gt;We are going</summary>
-        
-      
-    
-    
-    
-    <category term="Data Analysis" scheme="https://www.wenvenn.com/categories/Data-Analysis/"/>
-    
-    
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
-    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>keras入门：第一个深度学习项目</title>
-    <link href="https://www.wenvenn.com/20240121/keras-ru-men-di-yi-ge-shen-du-xue-xi-xiang-mu/"/>
-    <id>https://www.wenvenn.com/20240121/keras-ru-men-di-yi-ge-shen-du-xue-xi-xiang-mu/</id>
-    <published>2024-01-21T18:55:00.000Z</published>
-    <updated>2024-01-23T21:01:37.381Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;从Keras自带MNIST数据集中读取数据&quot;&gt;&lt;a href=&quot;#从Keras自带MNIST数据集中读取数据&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Machine Learning" scheme="https://www.wenvenn.com/categories/Machine-Learning/"/>
-    
-    
-    <category term="keras" scheme="https://www.wenvenn.com/tags/keras/"/>
     
   </entry>
   
