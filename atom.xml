@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-05-04T20:16:47.131Z</updated>
+  <updated>2024-05-03T19:01:57.293Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,34 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Two-dimensional histograms</title>
-    <link href="https://www.wenvenn.com/20240504/two-dimensional-histograms/"/>
-    <id>https://www.wenvenn.com/20240504/two-dimensional-histograms/</id>
-    <published>2024-05-04T20:17:05.012Z</published>
-    <updated>2024-05-04T20:16:47.131Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Two-dimensional histograms help to visualize two-dimensional points by dividing them among two-dimensional bins.&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
-    
-    
-    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
-    
-    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
-    
-  </entry>
   
   <entry>
     <title>Technical indicators Garmin-Klass Volatility</title>
@@ -115,6 +87,34 @@
         
         
     <summary type="html">&lt;p&gt;Contours or color-coded regions could be useful to visualize three-dimensional data in two dimensions. Matplotlib provides several</summary>
+        
+      
+    
+    
+    
+    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Two-dimensional histograms</title>
+    <link href="https://www.wenvenn.com/20240410/two-dimensional-histograms/"/>
+    <id>https://www.wenvenn.com/20240410/two-dimensional-histograms/</id>
+    <published>2024-04-10T16:00:00.000Z</published>
+    <updated>2024-05-04T20:18:59.018Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Two-dimensional histograms help to visualize two-dimensional points by dividing them among two-dimensional bins.&lt;/p&gt;
+&lt;h2</summary>
         
       
     
