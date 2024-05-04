@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-05-03T19:01:57.293Z</updated>
+  <updated>2024-05-04T20:16:47.131Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Two-dimensional histograms</title>
+    <link href="https://www.wenvenn.com/20240504/two-dimensional-histograms/"/>
+    <id>https://www.wenvenn.com/20240504/two-dimensional-histograms/</id>
+    <published>2024-05-04T20:17:05.012Z</published>
+    <updated>2024-05-04T20:16:47.131Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Two-dimensional histograms help to visualize two-dimensional points by dividing them among two-dimensional bins.&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+  </entry>
   
   <entry>
     <title>Technical indicators Garmin-Klass Volatility</title>
@@ -553,35 +581,6 @@
     <category term="plotly" scheme="https://www.wenvenn.com/tags/plotly/"/>
     
     <category term="GPS" scheme="https://www.wenvenn.com/tags/GPS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Confusion matrix and its metrics</title>
-    <link href="https://www.wenvenn.com/20240202/confusion-matrix-and-its-metrics/"/>
-    <id>https://www.wenvenn.com/20240202/confusion-matrix-and-its-metrics/</id>
-    <published>2024-02-02T20:00:00.000Z</published>
-    <updated>2024-02-03T19:04:34.342Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Data-preparation&quot;&gt;&lt;a href=&quot;#Data-preparation&quot; class=&quot;headerlink&quot; title=&quot;Data preparation&quot;&gt;&lt;/a&gt;Data preparation&lt;/h1&gt;&lt;p&gt;Fetch MNIST</summary>
-        
-      
-    
-    
-    
-    <category term="Machine Learning" scheme="https://www.wenvenn.com/categories/Machine-Learning/"/>
-    
-    
-    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
-    
-    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
-    
-    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
     
   </entry>
   
