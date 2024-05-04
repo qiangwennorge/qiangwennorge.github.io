@@ -1,5 +1,6 @@
 https://www.wenvenn.com/20240429/technical-indicators-garmin-klass-volatility/
 https://www.wenvenn.com/20240426/set-up-a-database-and-store-downloaded-financial-data-for-future-use/
+https://www.wenvenn.com/20240404/error-bars-for-data-analysis/
 https://www.wenvenn.com/20240326/customizing-plot-legends/
 https://www.wenvenn.com/20240322/geospatial-interpolation-k-nearest-neighbors/
 https://www.wenvenn.com/20240316/geospatial-interpolation-thiessen-polygons/

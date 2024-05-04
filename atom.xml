@@ -75,6 +75,33 @@
   </entry>
   
   <entry>
+    <title>Error bars for data analysis</title>
+    <link href="https://www.wenvenn.com/20240404/error-bars-for-data-analysis/"/>
+    <id>https://www.wenvenn.com/20240404/error-bars-for-data-analysis/</id>
+    <published>2024-04-04T16:00:00.000Z</published>
+    <updated>2024-05-04T20:04:22.038Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Error bars can be used to represent the variability of data and indicate the error or uncertanty in a reported measurement. They give a</summary>
+        
+      
+    
+    
+    
+    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Customizing plot legends</title>
     <link href="https://www.wenvenn.com/20240326/customizing-plot-legends/"/>
     <id>https://www.wenvenn.com/20240326/customizing-plot-legends/</id>
@@ -557,37 +584,6 @@
     <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
     
     <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Feature scaling using Scikit-Learn</title>
-    <link href="https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/"/>
-    <id>https://www.wenvenn.com/20240129/feature-scaling-using-scikit-learn/</id>
-    <published>2024-01-29T20:00:00.000Z</published>
-    <updated>2024-02-06T18:54:31.419Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Data-Preparation&quot;&gt;&lt;a href=&quot;#Data-Preparation&quot; class=&quot;headerlink&quot; title=&quot;Data Preparation&quot;&gt;&lt;/a&gt;Data Preparation&lt;/h2&gt;&lt;p&gt;The widely</summary>
-        
-      
-    
-    
-    
-    <category term="Machine Learning" scheme="https://www.wenvenn.com/categories/Machine-Learning/"/>
-    
-    
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
-    <category term="seaborn" scheme="https://www.wenvenn.com/tags/seaborn/"/>
-    
-    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
-    
-    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
     
   </entry>
   
