@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wenvenn.com/20240501/technical-indicators-relative-strength-index-rsi/</loc>
+    
+    <lastmod>2024-05-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wenvenn.com/20240410/two-dimensional-histograms/</loc>
     
     <lastmod>2024-05-04</lastmod>
@@ -606,6 +615,13 @@
   
   <url>
     <loc>https://www.wenvenn.com/tags/sqlite3/</loc>
+    <lastmod>2024-05-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wenvenn.com/tags/pandas-ta/</loc>
     <lastmod>2024-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
