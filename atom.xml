@@ -75,6 +75,33 @@
   </entry>
   
   <entry>
+    <title>Three-dimensional function visualization using contour plots</title>
+    <link href="https://www.wenvenn.com/20240416/three-dimensional-function-visualization-using-contour-plots/"/>
+    <id>https://www.wenvenn.com/20240416/three-dimensional-function-visualization-using-contour-plots/</id>
+    <published>2024-04-16T16:00:00.000Z</published>
+    <updated>2024-05-04T20:11:22.198Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Contours or color-coded regions could be useful to visualize three-dimensional data in two dimensions. Matplotlib provides several</summary>
+        
+      
+    
+    
+    
+    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Error bars for data analysis</title>
     <link href="https://www.wenvenn.com/20240404/error-bars-for-data-analysis/"/>
     <id>https://www.wenvenn.com/20240404/error-bars-for-data-analysis/</id>
@@ -555,35 +582,6 @@
     <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
     
     <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Analysis with text and categorical attributes or labels</title>
-    <link href="https://www.wenvenn.com/20240131/analysis-with-text-and-categorical-attributes-or-labels/"/>
-    <id>https://www.wenvenn.com/20240131/analysis-with-text-and-categorical-attributes-or-labels/</id>
-    <published>2024-01-31T20:00:00.000Z</published>
-    <updated>2024-02-03T19:07:46.173Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Data-Preparation&quot;&gt;&lt;a href=&quot;#Data-Preparation&quot; class=&quot;headerlink&quot; title=&quot;Data Preparation&quot;&gt;&lt;/a&gt;Data Preparation&lt;/h2&gt;&lt;p&gt;The widely</summary>
-        
-      
-    
-    
-    
-    <category term="Data Analysis" scheme="https://www.wenvenn.com/categories/Data-Analysis/"/>
-    
-    
-    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
-    
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
-    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
     
   </entry>
   
