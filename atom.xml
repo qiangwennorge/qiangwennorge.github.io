@@ -75,6 +75,34 @@
   </entry>
   
   <entry>
+    <title>Customizing plot legends</title>
+    <link href="https://www.wenvenn.com/20240326/customizing-plot-legends/"/>
+    <id>https://www.wenvenn.com/20240326/customizing-plot-legends/</id>
+    <published>2024-03-26T17:00:00.000Z</published>
+    <updated>2024-05-04T19:59:27.241Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Legend gives a lot of meaning to a visualization, offers explanation for the various plot elements.&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
+    
+    
+    <category term="numpy" scheme="https://www.wenvenn.com/tags/numpy/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Geospatial interpolation - K-nearest neighbors</title>
     <link href="https://www.wenvenn.com/20240322/geospatial-interpolation-k-nearest-neighbors/"/>
     <id>https://www.wenvenn.com/20240322/geospatial-interpolation-k-nearest-neighbors/</id>
@@ -560,35 +588,6 @@
     <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
     
     <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Imputation of missing values using Scikit-Learn</title>
-    <link href="https://www.wenvenn.com/20240124/imputation-of-missing-values-using-scikit-learn/"/>
-    <id>https://www.wenvenn.com/20240124/imputation-of-missing-values-using-scikit-learn/</id>
-    <published>2024-01-24T16:00:00.000Z</published>
-    <updated>2024-01-24T15:41:23.690Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Data-Preparation&quot;&gt;&lt;a href=&quot;#Data-Preparation&quot; class=&quot;headerlink&quot; title=&quot;Data Preparation&quot;&gt;&lt;/a&gt;Data Preparation&lt;/h2&gt;&lt;p&gt;The widely</summary>
-        
-      
-    
-    
-    
-    <category term="Data Analysis" scheme="https://www.wenvenn.com/categories/Data-Analysis/"/>
-    
-    
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
-    <category term="seaborn" scheme="https://www.wenvenn.com/tags/seaborn/"/>
-    
-    <category term="sklearn" scheme="https://www.wenvenn.com/tags/sklearn/"/>
     
   </entry>
   
