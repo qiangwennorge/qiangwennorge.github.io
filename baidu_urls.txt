@@ -1,4 +1,3 @@
-https://www.wenvenn.com/20240508/technical-indicators-bollinger-bands/
 https://www.wenvenn.com/20240501/technical-indicators-relative-strength-index-rsi/
 https://www.wenvenn.com/20240429/technical-indicators-garmin-klass-volatility/
 https://www.wenvenn.com/20240426/set-up-a-database-and-store-downloaded-financial-data-for-future-use/
