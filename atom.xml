@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-06-03T18:13:23.206Z</updated>
+  <updated>2024-06-03T18:21:02.046Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Technical indicators Average True Range (ATR)</title>
+    <link href="https://www.wenvenn.com/20240528/technical-indicators-average-true-range-atr/"/>
+    <id>https://www.wenvenn.com/20240528/technical-indicators-average-true-range-atr/</id>
+    <published>2024-05-28T16:00:00.000Z</published>
+    <updated>2024-06-03T18:21:02.046Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;The average true range (ATR) is a</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+    <category term="pandas_ta" scheme="https://www.wenvenn.com/tags/pandas-ta/"/>
+    
+  </entry>
   
   <entry>
     <title>Technical indicators Moving Average Convergence and Divergence (MACD)</title>
@@ -558,37 +589,6 @@
     <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
     
     <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Coordinates projection with Python</title>
-    <link href="https://www.wenvenn.com/20240222/coordinates-projection-with-python/"/>
-    <id>https://www.wenvenn.com/20240222/coordinates-projection-with-python/</id>
-    <published>2024-02-22T20:00:00.000Z</published>
-    <updated>2024-03-02T20:36:12.281Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Coordinates reference system tells Python how the coordinates related to places on the Earth, different coordinates projection could</summary>
-        
-      
-    
-    
-    
-    <category term="Data Visualization" scheme="https://www.wenvenn.com/categories/Data-Visualization/"/>
-    
-    
-    <category term="geopandas" scheme="https://www.wenvenn.com/tags/geopandas/"/>
-    
-    <category term="contextily" scheme="https://www.wenvenn.com/tags/contextily/"/>
-    
-    <category term="pyproj" scheme="https://www.wenvenn.com/tags/pyproj/"/>
-    
-    <category term="shapely" scheme="https://www.wenvenn.com/tags/shapely/"/>
     
   </entry>
   
