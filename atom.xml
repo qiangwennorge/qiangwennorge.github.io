@@ -48,6 +48,37 @@
   </entry>
   
   <entry>
+    <title>Technical indicators Moving Averages</title>
+    <link href="https://www.wenvenn.com/20240522/technical-indicators-moving-averages/"/>
+    <id>https://www.wenvenn.com/20240522/technical-indicators-moving-averages/</id>
+    <published>2024-05-22T16:00:00.000Z</published>
+    <updated>2024-06-04T08:17:58.316Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;A moving average is used to determine</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+    <category term="pandas_ta" scheme="https://www.wenvenn.com/tags/pandas-ta/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Technical indicators Moving Average Convergence and Divergence (MACD)</title>
     <link href="https://www.wenvenn.com/20240514/technical-indicators-moving-average-convergence-and-divergence-macd/"/>
     <id>https://www.wenvenn.com/20240514/technical-indicators-moving-average-convergence-and-divergence-macd/</id>
@@ -558,37 +589,6 @@
     <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
     
     <category term="xlsxwriter" scheme="https://www.wenvenn.com/tags/xlsxwriter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Read S&amp;P 500 list of companies from Wikipedia and retrieve stock data using yfinance</title>
-    <link href="https://www.wenvenn.com/20240224/read-s-p-500-list-of-companies-from-wikipedia-and-retrieve-stock-data-using-yfinance/"/>
-    <id>https://www.wenvenn.com/20240224/read-s-p-500-list-of-companies-from-wikipedia-and-retrieve-stock-data-using-yfinance/</id>
-    <published>2024-02-24T20:00:00.000Z</published>
-    <updated>2024-03-01T17:52:09.302Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Load-the-list-of-S-amp-P-500-companies-from-Wikepedia&quot;&gt;&lt;a href=&quot;#Load-the-list-of-S-amp-P-500-companies-from-Wikepedia&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
-    
-    
-    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
-    
-    <category term="seaborn" scheme="https://www.wenvenn.com/tags/seaborn/"/>
-    
-    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
-    
-    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
     
   </entry>
   
