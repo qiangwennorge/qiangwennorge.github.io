@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-06-14T18:00:25.955Z</updated>
+  <updated>2024-06-14T18:04:22.850Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Technical indicators Ease of Movement (EMV)</title>
+    <link href="https://www.wenvenn.com/20240606/technical-indicators-ease-of-movement-emv/"/>
+    <id>https://www.wenvenn.com/20240606/technical-indicators-ease-of-movement-emv/</id>
+    <published>2024-06-06T16:00:00.000Z</published>
+    <updated>2024-06-14T18:04:22.850Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;Ease of movement (EMV) is a technical</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+    <category term="pandas_ta" scheme="https://www.wenvenn.com/tags/pandas-ta/"/>
+    
+  </entry>
   
   <entry>
     <title>Technical indicators Accumulation Distribution Indicator (AD)</title>
@@ -555,33 +586,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Quantitative-Value-Strategy&quot;&gt;&lt;a href=&quot;#Quantitative-Value-Strategy&quot; class=&quot;headerlink&quot; title=&quot;Quantitative Value</summary>
-        
-      
-    
-    
-    
-    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
-    
-    
-    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
-    
-    <category term="xlsxwriter" scheme="https://www.wenvenn.com/tags/xlsxwriter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Building a quantitative momentum investing strategy</title>
-    <link href="https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/"/>
-    <id>https://www.wenvenn.com/20240226/building-a-quantitative-momentum-investing-strategy/</id>
-    <published>2024-02-26T20:00:00.000Z</published>
-    <updated>2024-03-01T18:22:55.436Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Quantitative-Momentum-Strategy&quot;&gt;&lt;a href=&quot;#Quantitative-Momentum-Strategy&quot; class=&quot;headerlink&quot; title=&quot;Quantitative Momentum</summary>
         
       
     
