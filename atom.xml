@@ -48,6 +48,37 @@
   </entry>
   
   <entry>
+    <title>Technical indicators On-balance Volume (OBV)</title>
+    <link href="https://www.wenvenn.com/20240610/technical-indicators-on-balance-volume-obv/"/>
+    <id>https://www.wenvenn.com/20240610/technical-indicators-on-balance-volume-obv/</id>
+    <published>2024-06-10T16:00:00.000Z</published>
+    <updated>2024-06-14T18:15:20.930Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;On-balance volume is a technical</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+    <category term="pandas_ta" scheme="https://www.wenvenn.com/tags/pandas-ta/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Technical indicators Ease of Movement (EMV)</title>
     <link href="https://www.wenvenn.com/20240606/technical-indicators-ease-of-movement-emv/"/>
     <id>https://www.wenvenn.com/20240606/technical-indicators-ease-of-movement-emv/</id>
@@ -574,33 +605,6 @@
     <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
     
     <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Calculate Capital Asset Pricing Model (CAPM) with Python</title>
-    <link href="https://www.wenvenn.com/20240301/calculate-capital-asset-pricing-model-capm-with-python/"/>
-    <id>https://www.wenvenn.com/20240301/calculate-capital-asset-pricing-model-capm-with-python/</id>
-    <published>2024-03-01T15:00:00.000Z</published>
-    <updated>2024-03-01T18:36:50.585Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Capital-Asset-Pricing-Model-CAPM&quot;&gt;&lt;a href=&quot;#Capital-Asset-Pricing-Model-CAPM&quot; class=&quot;headerlink&quot; title=&quot;Capital Asset Pricing Model</summary>
-        
-      
-    
-    
-    
-    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
-    
-    
-    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
-    
-    <category term="plotly" scheme="https://www.wenvenn.com/tags/plotly/"/>
     
   </entry>
   
