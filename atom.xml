@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-06-03T18:21:02.046Z</updated>
+  <updated>2024-06-14T18:00:25.955Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Technical indicators Accumulation Distribution Indicator (AD)</title>
+    <link href="https://www.wenvenn.com/20240602/technical-indicators-accumulation-distribution-indicator-ad/"/>
+    <id>https://www.wenvenn.com/20240602/technical-indicators-accumulation-distribution-indicator-ad/</id>
+    <published>2024-06-02T16:00:00.000Z</published>
+    <updated>2024-06-14T18:00:25.955Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;The accumulation/distribution</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+    <category term="pandas_ta" scheme="https://www.wenvenn.com/tags/pandas-ta/"/>
+    
+  </entry>
   
   <entry>
     <title>Technical indicators Average True Range (ATR)</title>
@@ -551,33 +582,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;Quantitative-Momentum-Strategy&quot;&gt;&lt;a href=&quot;#Quantitative-Momentum-Strategy&quot; class=&quot;headerlink&quot; title=&quot;Quantitative Momentum</summary>
-        
-      
-    
-    
-    
-    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
-    
-    
-    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
-    
-    <category term="xlsxwriter" scheme="https://www.wenvenn.com/tags/xlsxwriter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Building an equal-weight S&amp;P 600 index fund</title>
-    <link href="https://www.wenvenn.com/20240225/building-an-equal-weight-s-p-600-index-fund/"/>
-    <id>https://www.wenvenn.com/20240225/building-an-equal-weight-s-p-600-index-fund/</id>
-    <published>2024-02-25T20:00:00.000Z</published>
-    <updated>2024-03-01T18:21:35.243Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Load-the-list-of-S-amp-P-600-companies-from-Wikepedia&quot;&gt;&lt;a href=&quot;#Load-the-list-of-S-amp-P-600-companies-from-Wikepedia&quot;</summary>
         
       
     
