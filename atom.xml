@@ -6,7 +6,7 @@
   <link href="https://www.wenvenn.com/atom.xml" rel="self"/>
   
   <link href="https://www.wenvenn.com/"/>
-  <updated>2024-06-14T18:04:22.850Z</updated>
+  <updated>2024-06-14T18:11:56.876Z</updated>
   <id>https://www.wenvenn.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Technical indicators Force Index (FI)</title>
+    <link href="https://www.wenvenn.com/20240614/technical-indicators-force-index-fi/"/>
+    <id>https://www.wenvenn.com/20240614/technical-indicators-force-index-fi/</id>
+    <published>2024-06-14T16:00:00.000Z</published>
+    <updated>2024-06-14T18:11:56.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Background&quot;&gt;&lt;a href=&quot;#Background&quot; class=&quot;headerlink&quot; title=&quot;Background&quot;&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;The force index (FI) is a technical</summary>
+        
+      
+    
+    
+    
+    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
+    
+    
+    <category term="pandas" scheme="https://www.wenvenn.com/tags/pandas/"/>
+    
+    <category term="matplotlib" scheme="https://www.wenvenn.com/tags/matplotlib/"/>
+    
+    <category term="sqlite3" scheme="https://www.wenvenn.com/tags/sqlite3/"/>
+    
+    <category term="pandas_ta" scheme="https://www.wenvenn.com/tags/pandas-ta/"/>
+    
+  </entry>
   
   <entry>
     <title>Technical indicators Ease of Movement (EMV)</title>
@@ -570,33 +601,6 @@
     <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
     
     <category term="plotly" scheme="https://www.wenvenn.com/tags/plotly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Building a quantitative value investing strategy</title>
-    <link href="https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/"/>
-    <id>https://www.wenvenn.com/20240228/building-a-quantitative-value-investing-strategy/</id>
-    <published>2024-02-28T20:00:00.000Z</published>
-    <updated>2024-03-01T18:24:10.670Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Quantitative-Value-Strategy&quot;&gt;&lt;a href=&quot;#Quantitative-Value-Strategy&quot; class=&quot;headerlink&quot; title=&quot;Quantitative Value</summary>
-        
-      
-    
-    
-    
-    <category term="Quantitative Investment" scheme="https://www.wenvenn.com/categories/Quantitative-Investment/"/>
-    
-    
-    <category term="yfinance" scheme="https://www.wenvenn.com/tags/yfinance/"/>
-    
-    <category term="xlsxwriter" scheme="https://www.wenvenn.com/tags/xlsxwriter/"/>
     
   </entry>
   
