@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.wenvenn.com/20211214/numpy-kuai-su-chuang-jian-shu-zu-array/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  <url>
     <loc>https://www.wenvenn.com/20240610/technical-indicators-on-balance-volume-obv/</loc>
     <lastmod>2024-06-14</lastmod>
   </url>
@@ -174,10 +178,6 @@
   </url>
   <url>
     <loc>https://www.wenvenn.com/20211219/backtrader-she-ji-yi-ge-jian-dan-de-sma-ce-lue/</loc>
-    <lastmod>2024-01-23</lastmod>
-  </url>
-  <url>
-    <loc>https://www.wenvenn.com/20211214/numpy-kuai-su-chuang-jian-shu-zu-array/</loc>
     <lastmod>2024-01-23</lastmod>
   </url>
 </urlset> 
